@@ -40,7 +40,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 ```
 
-##Install sublime text3
+## sublime text3
 
 Install the GPG key:
 ```sh
