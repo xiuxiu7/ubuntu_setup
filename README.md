@@ -40,6 +40,32 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 ```
 
+##Install sublime text3
+
+Install the GPG key:
+```sh
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+```
+Ensure apt is set up to work with https sources:
+```sh
+sudo apt-get install apt-transport-https
+```
+Select the channel to use:
+
+Stable
+```sh
+    echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+```
+Dev
+```sh
+    echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+```
+Update apt sources and install Sublime Text
+```sh
+sudo apt-get update
+sudo apt-get install sublime-text
+```
+
 ## Install powerline fonts
 
 ```sh
