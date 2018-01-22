@@ -7,7 +7,7 @@ sudo apt-get install open-vm-tools-desktop
 ## Install tools
 
 ```sh
-sudo apt-get install xsel meld minicom git zsh build-essential cmake clang exuberant-ctags cscope silversearcher-ag python-pip python-dev tig tmux-next speedcrunch htop
+sudo apt-get install xsel meld minicom git zsh build-essential cmake clang exuberant-ctags cscope silversearcher-ag python-pip python3-pip python-dev tig tmux-next speedcrunch htop
 ```
 ## Install i386 support
 
@@ -36,7 +36,7 @@ eval "$(thefuck --alias)"
 Install thefuck
 
 ```sh
-sudo pip install thefuck
+sudo pip3 install thefuck
 ```
 
 Install fzf
