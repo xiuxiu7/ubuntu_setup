@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoFileName",
+		"BracketHighlighter",
+		"CMakeFormat",
+		"ConvertToUTF8",
+		"CoolFormat",
+		"DocBlockr",
+		"FileHeader",
+		"GitCommitMsg",
+		"GitGutter",
+		"Insert Nums",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SyncedSidebarBg",
+		"Terminal"
+	]
+}

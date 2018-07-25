@@ -1,0 +1,7 @@
+{
+    "python_path": "/usr/bin/python",
+    "ycmd_path": "/home/xiuwen/.config/sublime-text-3/ycmd",
+    "highlight_errors_on_save": false,
+    "select_after_goto": false,
+    "error_panel_syntax_file": "Packages/C++YouCompleteMe/ErrorPanel.tmLanguage"
+}

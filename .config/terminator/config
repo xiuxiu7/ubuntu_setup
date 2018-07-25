@@ -1,0 +1,31 @@
+[global_config]
+  geometry_hinting = False
+  handle_size = 1
+  inactive_color_offset = 1.0
+  title_font = mry_KacstQurn Bold 11
+  title_hide_sizetext = True
+[keybindings]
+  next_tab = <Alt>2
+  prev_tab = <Alt>1
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#440030"
+    background_image = None
+    cursor_color = "#ffffff"
+    custom_command = tmux
+    font = Ubuntu Mono 13
+    foreground_color = "#ffffff"
+    login_shell = True
+    scrollback_infinite = True
+    show_titlebar = False
+    use_system_font = False
