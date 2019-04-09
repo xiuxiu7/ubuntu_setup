@@ -177,3 +177,5 @@ cd git_config
 cp .gitconfig ~/
 cp .gitglobalignore ~/
 ```
+# vscode tk
+34c4df1b381228efb9d90ea9663ffa022038bcb8
